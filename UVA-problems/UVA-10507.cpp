@@ -5,7 +5,7 @@ using ll = long long;
 
 void testCase(void) {
        int n, m; 
-<       while(cin >> n >> m) { // cin.eof();
+       while(cin >> n >> m) { // cin.eof();
               // our adjacency list
               unordered_map<char, vector<char>> adj;
               // for counts the number of active/wake connected nodes
